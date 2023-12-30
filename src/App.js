@@ -1,25 +1,60 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, { Component } from "react";
+import Navbar from "./components/Navbar";
+import News from "./components/News";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+export default class App extends Component {
+  category = [
+    "business",
+    "entertainment",
+    "general",
+    "health",
+    "science",
+    "sports",
+    "technology",
+  ];
+  pageSize = 9;
+
+  render() {
+    return (
+      <>
+        <Router>
+          <Navbar />
+
+          <div className="container my-3">
+            <Routes>
+              <Route
+                exect
+                path="/"
+                element={
+                  <News key="home" pageSize={this.pageSize} country="in" />
+                }
+              />
+
+              {this.category &&
+                this.category.map((element) => {
+                  return (
+                    <Route
+                      exect
+                      path={`/category/${element}`}
+                      element={
+                        <News
+                          key={element}
+                          pageSize={this.pageSize}
+                          country="in"
+                          category={element}
+                        />
+                      }
+                    />
+                  );
+                })}
+            </Routes>
+          </div>
+        </Router>
+      </>
+    );
+  }
 }
-
-export default App;

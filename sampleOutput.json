@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 35,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Samantha Subin, Alex Harring",
+            "title": "Stocks are little changed Wednesday, S&P 500 trades near record high: Live updates - CNBC",
+            "description": "Stocks hovered near the flatline Wednesday as traders kept an eye on the S&P 500's march toward record levels.",
+            "url": "https://www.cnbc.com/2023/12/26/stock-market-today-live-update.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107350097-1703094067163-NYSE_Traders-OB-20231220-CC-10.jpg?v=1703094231&w=1920&h=1080",
+            "publishedAt": "2023-12-27T14:30:00Z",
+            "content": "Stocks were little changed Wednesday as traders kept an eye on the S&amp;P 500's march toward record levels.\r\nThe S&amp;P 500 and Nasdaq Composite inched slightly lower, while the Dow Jones Industria… [+1717 chars]"
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "Kerry Breen",
+            "title": "Pregnant Texas teen Savanah Nicole Soto and boyfriend found dead, family says - CBS News",
+            "description": "Savanah Nicole Soto and her boyfriend, Matthew Guerra, were found dead inside a vehicle, a family member confirmed Tuesday.",
+            "url": "https://www.cbsnews.com/news/search-pregnant-teen-savanah-nicole-soto-texas/",
+            "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2023/12/26/792d7492-baaa-4249-a4c2-b9db6d966319/thumbnail/1200x630g2/9e665d763e8a0bbd6571082b8a970693/screen-shot-2023-12-26-at-10-31-28-am.png?v=5382e209c94ee904b3a96a69f8ca0ce0",
+            "publishedAt": "2023-12-27T14:20:00Z",
+            "content": "Missing Texas teen Savanah Nicole Soto, who was due to give birth any day, and her boyfriend have been found dead following a multi-day search, a family member confirmed Tuesday.\r\nSoto and her boyfri… [+3570 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Marshall Cohen",
+            "title": "Michigan Supreme Court rejects ‘insurrectionist ban’ case and keeps Trump on 2024 primary ballot - CNN",
+            "description": "The Michigan Supreme Court has rejected an attempt to remove former President Donald Trump from the 2024 ballot based on the US Constitution’s “insurrectionist ban.”",
+            "url": "https://www.cnn.com/2023/12/27/politics/michigan-supreme-court-rejects-insurrectionist-ban-case-and-keeps-trump-on-2024-primary-ballot/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/e9a81bdf-7d38-4787-af96-c98820f825e8.jpg?q=w_760,h_427,x_0,y_40,c_crop/w_800",
+            "publishedAt": "2023-12-27T14:17:00Z",
+            "content": "The Michigan Supreme Court has rejected an attempt to remove former President Donald Trump from the 2024 primary ballot based on the US Constitutions insurrectionist ban.\r\nThe outcome, which was gene… [+4145 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": null,
+            "title": "France: Eiffel Tower staff strike on centenary of creator's death - BBC.com",
+            "description": "The date of the strike was not picked at random as 27 December was the day of Gustave Eiffel's death.",
+            "url": "https://www.bbc.com/news/world-europe-67827438",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/11610/production/_132148117_gettyimages-1876314592-1.jpg",
+            "publishedAt": "2023-12-27T13:50:00Z",
+            "content": "By Nadia RagozhinaBBC News\r\nThe Eiffel Tower in Paris closed to the public on Wednesday because of a strike by staff.\r\nEmployees were protesting about the way the Tower was being managed, France's po… [+2850 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CBS Sports"
+            },
+            "author": "",
+            "title": "Prisco's Week 17 NFL picks: Ravens edge Dolphins in game of the week; surging Buccaneers win fifth in a row - CBS Sports",
+            "description": "Pete Prisco shares all his Week 17 picks, including the Cowboys bouncing back vs. the Lions",
+            "url": "https://www.cbssports.com/nfl/news/priscos-week-17-nfl-picks-ravens-edge-dolphins-in-game-of-the-week-surging-buccaneers-win-fifth-in-a-row/",
+            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2023/12/26/14b4a7fb-7ed4-420d-8a86-94bb54c0d98b/thumbnail/1200x675/f5c57152a757a4946c065c1a9bfbb8b8/lamar-jackson-dolphins-g.jpg",
+            "publishedAt": "2023-12-27T12:59:49Z",
+            "content": "Early Sunday, it looked so promising for my picks. I was sweeping the six games at one point, leading me to believe I was destined for a good week.\r\nThen I got coal in my stocking.\r\nSome of the games… [+6790 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": null,
+            "title": "Israel expanding ground offensive into central Gaza refugee camps - BBC.com",
+            "description": "The Palestinian president condemns the war, as Israel says it will last \"many more months\".",
+            "url": "https://www.bbc.com/news/world-middle-east-67825465",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/13096/production/_132147977_40add5f2d4e201cc464a0cd1dacbcfd4fb441412.jpg",
+            "publishedAt": "2023-12-27T12:22:00Z",
+            "content": "Israel's military chief said the war with Hams would last \"many more months\"\r\nIsrael is expanding its ground offensive into Palestinian refugee camps in central Gaza, as it warns the war with Hamas w… [+6045 chars]"
+        },
+        {
+            "source": {
+                "id": "nbc-news",
+                "name": "NBC News"
+            },
+            "author": "The Associated Press",
+            "title": "Mariah Carey and boyfriend, Bryan Tanaka, break up after seven years together - NBC News",
+            "description": "Mariah Carey and Bryan Tanaka have split after 7 years together, the dancer confirmed Tuesday.",
+            "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/mariah-carey-boyfriend-bryan-tanaka-break-up-rcna131273",
+            "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2023-12/231227-mariah-carey-bryan-tanaka-mjf-0716-24960d.jpg",
+            "publishedAt": "2023-12-27T12:21:16Z",
+            "content": "Mariah Carey and Bryan Tanaka have split after 7 years together, the dancer confirmed Tuesday.\r\nIn a statement shared with The Associated Press and published on Tanakas Instagram, Careys backup dance… [+1469 chars]"
+        },
+        {
+            "source": {
+                "id": "bloomberg",
+                "name": "Bloomberg"
+            },
+            "author": "Mark Gurman",
+            "title": "The Late-Night Email to Tim Cook That Set the Apple Watch Saga in Motion - Bloomberg",
+            "description": "Apple’s hiring of a key engineer 10 years ago helped spark a fight that led its watch to be banned from the US.",
+            "url": "https://www.bloomberg.com/news/articles/2023-12-27/what-started-the-apple-watch-ban-saga-a-late-night-email-to-ceo-tim-cook",
+            "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i_14ilFEih1s/v0/1200x800.jpg",
+            "publishedAt": "2023-12-27T12:00:11Z",
+            "content": "At about 1 a.m. California time in 2013, a scientist emailed Apple Inc. Chief Executive Officer Tim Cook with an irresistible pitch.\r\nI strongly believe that we can develop the new wave of technology… [+333 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": "Alex Christian",
+            "title": "Panic and possibility: What workers learned about AI in 2023 - BBC.com",
+            "description": "Heralded and decried in equal measure, artificial intelligence has already changed how we work now, and how we will in the future.",
+            "url": "https://www.bbc.com/worklife/article/20231219-panic-and-possibility-what-workers-learned-about-ai-in-2023",
+            "urlToImage": "https://ychef.files.bbci.co.uk/624x351/p0h0lyh1.jpg",
+            "publishedAt": "2023-12-27T12:00:00Z",
+            "content": "By Alex ChristianFeatures correspondent\r\nWorkers faced both existential crises and found competitive advantages in AI this year (Credit: Alamy)\r\nHeralded and decried in equal measure, artificial inte… [+7451 chars]"
+        },
+        {
+            "source": {
+                "id": "espn",
+                "name": "ESPN"
+            },
+            "author": "NFL Nation",
+            "title": "NFL Week 17 Power Rankings 2023: How all 32 teams stack up - ESPN",
+            "description": "Which NFL teams are ranked in the top 10? Who is the new No. 1? Plus, who is the rookie of the year on all 32 teams?",
+            "url": "https://www.espn.com/nfl/story/_/page/NFLpowerranking122723/nfl-week-17-power-rankings-poll-2023-plus-all-team-rookie-year",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F1226%2Fnfl_week17%2Dpr_16x9.jpg",
+            "publishedAt": "2023-12-27T12:00:00Z",
+            "content": "Welcome to Week 17 of the 2023 NFL season. A few exciting games over the holidays made an impact on playoff inspirations and the top 10 teams in this week's rankings.\r\nIn addition to the updated rank… [+21650 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Times of Israel"
+            },
+            "author": "The Times of Israel",
+            "title": "Iran: Oct. 7 attack was revenge for killing of Soleimani in 2020; Hamas: No it wasn’t - The Times of Israel",
+            "description": null,
+            "url": "https://www.timesofisrael.com/irans-guard-corps-hamas-oct-7-attack-was-revenge-for-killing-of-soleimani-in-2020/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-27T11:59:37Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "Frances Vinall, Karen DeYoung, Leo Sands, Hannah Allam, Gerry Shih, Kareem Fahim, William Booth, Hajar Harb, Miriam Berger",
+            "title": "Israel-Gaza war live updates: Israel expanding fight in refugee camps; Netanyahu adviser meets U.S. officials - The Washington Post",
+            "description": "Ron Dermer, a senior adviser to the Israeli prime minister, met with Secretary of State Antony Blinken and national security adviser Jake Sullivan at the White House.",
+            "url": "https://www.washingtonpost.com/world/2023/12/27/israel-hamas-war-gaza-news-palestine/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/KCZM7PR7FZEHISHYAQETZILYT4_size-normalized.jpg&w=1440",
+            "publishedAt": "2023-12-27T11:17:41Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "Sara Moniuszko",
+            "title": "Experts share which social media health trends to leave behind in 2023 — and which are worth carrying into 2024 - CBS News",
+            "description": "From nutrition to fitness, apps like TikTok and Instagram propelled a multitude of health and wellness trends this year. Here are some that are expert-approved, and others that missed the mark.",
+            "url": "https://www.cbsnews.com/news/social-media-health-trends-experts/",
+            "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2023/12/24/c1b27a1d-1e45-4291-8d80-66317ca360e4/thumbnail/1200x630/c3c416b07b4729eb4f1b4ef6cbdc2c6b/gettyimages-1202525766.jpg?v=5382e209c94ee904b3a96a69f8ca0ce0",
+            "publishedAt": "2023-12-27T11:00:15Z",
+            "content": "From the rise of the \"girl dinner\" to videos normalizing gut health issues, social media was full of wellness-related trending topics over the past year. But which ones stuck out to experts as try-wo… [+6479 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "NPR"
+            },
+            "author": "",
+            "title": "Gen X and President Biden: Reality bites - NPR",
+            "description": "The president is most unpopular among members of Generation X, who lean more conservative than those in other generations.",
+            "url": "https://www.npr.org/2023/12/27/1217878506/gen-x-conservative-disapprove-biden",
+            "urlToImage": "https://media.npr.org/assets/img/2023/12/21/gettyimages-51643188_wide-94037af772dae2641f82138c3305c62d9dfd2498-s1400-c100.jpg",
+            "publishedAt": "2023-12-27T10:29:00Z",
+            "content": "Generation X voters were raised on Rock the Vote and political engagement in the Clinton years, but they are increasingly conservative and opposed to President Biden.\r\nJoyce Naltchayan/AFP via Getty … [+7850 chars]"
+        },
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "HANNA ARHIROVA",
+            "title": "A Russian drone and artillery attack kills 6 in Ukraine and knocks out power in a major city - The Associated Press",
+            "description": "Russia has fired almost 50 Shahed drones at targets in Ukraine and shelled a train station where more than 100 civilians were gathered to evacuate. Ukrainian officials said Wednesday that the barrages killed at least six people and knocked out power in most o…",
+            "url": "https://apnews.com/article/russia-ukraine-war-drone-bombardment-train-station-91adc994c1284d0c654f7bf4e4685f75",
+            "urlToImage": "https://dims.apnews.com/dims4/default/3994a79/2147483647/strip/true/crop/4000x2250+0+209/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F63%2F42%2Fa29f2d2d6ac389639c3de6dc84ff%2Fe8a857fa7e5d454dbb651ec37d6d077c",
+            "publishedAt": "2023-12-27T10:10:00Z",
+            "content": "KYIV, Ukraine (AP) Russia fired almost 50 Shahed drones at targets in Ukraine and shelled a train station where more than 100 civilians were gathered to catch a train to Kyiv, Ukrainian officials sai… [+2740 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "HuffPost"
+            },
+            "author": "AP",
+            "title": "Kanye West Apologizes To Jewish Community With Post In Hebrew - HuffPost",
+            "description": "The rapper, now known as Ye, issued the apology after going on yet another antisemitic tirade.",
+            "url": "https://www.huffpost.com/entry/kanye-west-apology-antisemitism_n_658beb5de4b014ec45a2c07e",
+            "urlToImage": "https://img.huffingtonpost.com/asset/658beb5e2200003600faf6e1.jpeg?cache=UoIdCPT91k&ops=1200_630",
+            "publishedAt": "2023-12-27T09:27:46Z",
+            "content": "The rapper formerly known as Kanye West, who has a long history of making antisemitic comments, apologized to the Jewish community in an Instagram post written in Hebrew on Tuesday.\r\nI sincerely apol… [+6280 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "PhoneArena"
+            },
+            "author": "Polina Kovalakova",
+            "title": "Official renders of the Galaxy S24 lineup supposedly leak via an authorized distributor in Columbia - PhoneArena",
+            "description": "Seemingly official renders of the Galaxy S24 lineup are rumored to have leaked via an authorized Samsung distributor in Columbia.",
+            "url": "https://www.phonearena.com/news/galaxy-s24-lineup-official-renders-supposedly-leak_id153829",
+            "urlToImage": "https://m-cdn.phonearena.com/images/article/153829-wide-two_1200/Official-renders-of-the-Galaxy-S24-lineup-supposedly-leak-via-an-authorized-distributor-in-Columbia.jpg",
+            "publishedAt": "2023-12-27T08:42:36Z",
+            "content": "The rumor mill has gone into overdrive with the imminent launch of Samsungs upcoming flagship smartphone series. In the latest hot piece of gossip, it seems that a Columbian official partner of Samsu… [+1898 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Athletic"
+            },
+            "author": "Jake Ciely",
+            "title": "Fantasy Football Rankings Week 17: Sleepers, projections, starts, sits | Demarcus Robinson, Marvin Mims and more - The Athletic",
+            "description": "Jake Ciely has your fantasy football Week 17 ranks, sleepers, game previews and more to win your championships",
+            "url": "https://theathletic.com/5163035/2023/12/27/fantasy-football-rankings-week-17-sleepers-projections-starts-sits/",
+            "urlToImage": "https://cdn.theathletic.com/app/uploads/2023/11/01195432/USATSI_21444596-scaled.jpg",
+            "publishedAt": "2023-12-27T05:26:59Z",
+            "content": "The fantasy football playoffs are in full swing, and no Christmas present would be better than another win. Lets get into the Week 17 fantasy football rankings, sleepers, game previews and fun with t… [+7470 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Euronews"
+            },
+            "author": null,
+            "title": "Russian naval ship in Crimea destroyed by Ukrainian forces - Euronews",
+            "description": "Images and videos circulating on social media show the \"Novocherkassk\" was completely destroyed, scattered over hundreds of metres.",
+            "url": "https://www.euronews.com/2023/12/26/russian-naval-ship-stationed-in-occupied-crimea-destroyed-by-ukrainian-forces",
+            "urlToImage": "https://static.euronews.com/articles/stories/08/13/57/92/1200x675_cmsv2_e09982c7-ab04-5a61-ae4b-b7baff32b32c-8135792.jpg",
+            "publishedAt": "2023-12-27T04:52:16Z",
+            "content": "Images and videos circulating on social media show the \"Novocherkassk\" was completely destroyed, scattered over hundreds of metres.\r\n A Russian naval ship stationed in occupied Crimea was damaged in … [+1555 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": null,
+            "title": "Jailed Russian opposition leader Navalny ‘relieved’ after ‘exhausting’ 20-day prison transfer - CNN",
+            "description": "Russian opposition leader Alexey Navalny has spoken out for the first time since his sudden disappearance several weeks ago, after his team said they eventually located him at a penal colony in Siberia Monday.",
+            "url": "https://www.cnn.com/2023/12/27/europe/alexey-navalny-russia-prison-message-intl-hnk/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/191226172759-navalny-pano.jpg?q=x_3,y_133,h_1440,w_2559,c_crop/w_800",
+            "publishedAt": "2023-12-27T04:24:00Z",
+            "content": "Russian opposition leader Alexey Navalny has spoken out for the first time since his sudden disappearance several weeks ago, after his team said they eventually located him at a penal colony in Siber… [+3075 chars]"
+        }
+    ]
+}
