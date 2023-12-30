@@ -1,14 +1,16 @@
 import "./App.css";
 
-import React, { Component } from "react";
+import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import News from "./components/News";
 import LoadingBar from "react-top-loading-bar";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-export default class App extends Component {
-  category = [
+const App = () => {
+  const [progress, setProgress] = useState(0);
+
+  let category = [
     "business",
     "entertainment",
     "general",
@@ -17,66 +19,59 @@ export default class App extends Component {
     "sports",
     "technology",
   ];
-  pageSize = 6;
+  let pageSize = 6;
 
-  apiKey = process.env.REACT_APP_NEWS_API_1;
-  // apiKey = process.env.REACT_APP_NEWS_API_2;
+  let apiKey = process.env.REACT_APP_NEWS_API_1;
+  // let apiKey = process.env.REACT_APP_NEWS_API_2;
 
-  state = {
-    progress: 0,
-  };
-  setProgress = (progress) => {
-    this.setState({ progress: progress });
-  };
+  return (
+    <>
+      <Router>
+        <Navbar />
 
-  render() {
-    return (
-      <>
-        <Router>
-          <Navbar />
+        <LoadingBar color="#f11946" progress={progress} />
 
-          <LoadingBar color="#f11946" progress={this.state.progress} />
+        <div className="container my-3">
+          <Routes>
+            <Route
+              exect
+              path="/"
+              element={
+                <News
+                  key="home"
+                  setProgress={setProgress}
+                  apiKey={apiKey}
+                  pageSize={pageSize}
+                  country="in"
+                  category="general"
+                />
+              }
+            />
 
-          <div className="container my-3">
-            <Routes>
-              <Route
-                exect
-                path="/"
-                element={
-                  <News
-                    key="home"
-                    setProgress={this.setProgress}
-                    apiKey={this.apiKey}
-                    pageSize={this.pageSize}
-                    country="in"
-                    category="general"
+            {category &&
+              category.map((element) => {
+                return (
+                  <Route
+                    exect
+                    path={`/category/${element}`}
+                    element={
+                      <News
+                        key={element}
+                        setProgress={setProgress}
+                        apiKey={apiKey}
+                        pageSize={pageSize}
+                        country="in"
+                        category={element}
+                      />
+                    }
                   />
-                }
-              />
+                );
+              })}
+          </Routes>
+        </div>
+      </Router>
+    </>
+  );
+};
 
-              {this.category &&
-                this.category.map((element) => {
-                  return (
-                    <Route
-                      exect
-                      path={`/category/${element}`}
-                      element={
-                        <News
-                          key={element}
-                          setProgress={this.setProgress}
-                          apiKey={this.apiKey}
-                          pageSize={this.pageSize}
-                          country="in"
-                          category={element}
-                        />
-                      }
-                    />
-                  );
-                })}
-            </Routes>
-          </div>
-        </Router>
-      </>
-    );
-  }
-}
+export default App;
