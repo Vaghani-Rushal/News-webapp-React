@@ -3,6 +3,7 @@ import "./App.css";
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import News from "./components/News";
+import LoadingBar from "react-top-loading-bar";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -16,7 +17,17 @@ export default class App extends Component {
     "sports",
     "technology",
   ];
-  pageSize = 9;
+  pageSize = 6;
+
+  apiKey = process.env.REACT_APP_NEWS_API_1;
+  // apiKey = process.env.REACT_APP_NEWS_API_2;
+
+  state = {
+    progress: 0,
+  };
+  setProgress = (progress) => {
+    this.setState({ progress: progress });
+  };
 
   render() {
     return (
@@ -24,13 +35,22 @@ export default class App extends Component {
         <Router>
           <Navbar />
 
+          <LoadingBar color="#f11946" progress={this.state.progress} />
+
           <div className="container my-3">
             <Routes>
               <Route
                 exect
                 path="/"
                 element={
-                  <News key="home" pageSize={this.pageSize} country="in" />
+                  <News
+                    key="home"
+                    setProgress={this.setProgress}
+                    apiKey={this.apiKey}
+                    pageSize={this.pageSize}
+                    country="in"
+                    category="general"
+                  />
                 }
               />
 
@@ -43,6 +63,8 @@ export default class App extends Component {
                       element={
                         <News
                           key={element}
+                          setProgress={this.setProgress}
+                          apiKey={this.apiKey}
                           pageSize={this.pageSize}
                           country="in"
                           category={element}
