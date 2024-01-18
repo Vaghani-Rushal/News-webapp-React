@@ -32,10 +32,10 @@ const News = (props) => {
   };
 
   useEffect(() => {
-    updateNews();
     document.title = `NewsMonkey - ${capitalizeFirstLetter(
       props.category
     )} News`;
+    updateNews();
     // eslint disable next line
   }, []);
 
@@ -77,7 +77,7 @@ const News = (props) => {
                   element.description &&
                   element.urlToImage &&
                   element.url && (
-                    <div className="col">
+                    <div key={element.title} className="col">
                       <NewsItem
                         title={element.title.slice(0, 90) + "..."}
                         description={

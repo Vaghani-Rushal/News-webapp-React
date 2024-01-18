@@ -6,6 +6,8 @@ import News from "./components/News";
 import LoadingBar from "react-top-loading-bar";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Maintanance from "./components/Maintanance";
+import Error from "./components/Error";
 
 const App = () => {
   const [progress, setProgress] = useState(0);
@@ -38,7 +40,6 @@ const App = () => {
               path="/"
               element={
                 <News
-                  key="home"
                   setProgress={setProgress}
                   apiKey={apiKey}
                   pageSize={pageSize}
@@ -48,10 +49,14 @@ const App = () => {
               }
             />
 
+            <Route path="/about" element={<Maintanance />} />
+            <Route path="/contact" element={<Maintanance />} />
+
             {category &&
               category.map((element) => {
                 return (
                   <Route
+                    key={element}
                     exect
                     path={`/category/${element}`}
                     element={
@@ -67,6 +72,8 @@ const App = () => {
                   />
                 );
               })}
+
+            <Route path="/*" element={<Error />} />
           </Routes>
         </div>
       </Router>
